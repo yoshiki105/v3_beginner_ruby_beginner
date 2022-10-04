@@ -1,14 +1,19 @@
-def chapter5_1(array)
+def chapter05_01(array)
+  array.uniq.sort
 end
 
-def chapter5_2(array)
+def chapter05_02(array)
+  array.map{_1*1000}
 end
 
-def chapter5_3(array)
+def chapter05_03(array)
+  array.join('-')
 end
 
-def chapter5_4(array)
+def chapter05_04(array)
+  array.select(&:even?)
 end
 
-def chapter5_5(array)
+def chapter05_05(array)
+  array.size
 end
